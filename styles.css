@@ -1,1 +1,13 @@
 /* your code */
+table, th, td{
+	border: 2px solid darkgoldenrod;
+	border-collapse: collapse;
+}
+
+th:nth-child(odd), td:nth-child(odd){
+	background-color: lightgreen
+}
+
+td {
+	text-align: center;
+}
